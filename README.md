@@ -1,2 +1,2 @@
-# Ez-CRUD
-H/W
+# techno-shop
+techno shop. Practise restFull api

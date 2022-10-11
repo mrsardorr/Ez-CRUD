@@ -1,0 +1,32 @@
+{
+  "name": "techno-shop",
+  "version": "1.0.0",
+  "description": "Techno shop for lesson",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MirzaabdullayevTest/techno-shop.git"
+  },
+  "keywords": [
+    "techno",
+    "shop",
+    "online"
+  ],
+  "author": "Mirzaabdullayev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MirzaabdullayevTest/techno-shop/issues"
+  },
+  "homepage": "https://github.com/MirzaabdullayevTest/techno-shop#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "express-hbs": "^2.4.0",
+    "hbs": "^4.2.0",
+    "mongoose": "^6.6.5"
+  }
+}

@@ -1,0 +1,31 @@
+<div class="box">
+      <h1>Add product to Card 📥</h1>
+      <form action="/index/addtobox" method="post">
+            <input type="text" placeholder="ID" name="idd"/>
+            <input type="submit" value="Add" class="button"></input>
+      </form>
+</div>
+<br><br>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Product</th>
+      <th scope="col">Price</th>
+      <th scope="col">ID</th>
+      <th scope="col">Delete</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each boxlist}}
+      <tr>
+        <td>{{name}}</td>
+        <td>{{price}}$</td>
+        <td>{{_id}}</td>
+        <td><a href="/index/delFromCard/{{_id}}">➖</a></td>
+      </tr>
+    {{/each}}
+    <tr>
+      <td><h4>TOTAL: ~{{floor}}$</h4></td>
+    </tr>
+  </tbody>
+</table>
